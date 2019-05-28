@@ -3,6 +3,7 @@
 ## separada por ',' de los valores de la columna _c4
 ## de la tabla tbl1.tsv
 ## 
+import pandas as pd
 ##Leer tabla
 x1 = pd.read_csv('tbl1.tsv', sep = '\t')
 #construcción de tabla
