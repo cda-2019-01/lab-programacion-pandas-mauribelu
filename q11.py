@@ -4,7 +4,7 @@
 ## y _c5b (unidos por ':') de la tabla tbl2.tsv
 import pandas as pd
 import numpy as np
-## Leer archivo
+## Leer tabla
 x2 = pd.read_csv('tbl2.tsv', sep = '\t')
 ## Construccion de tabla
 x2['_c5'] = x2['_c5a'] + ":" + x2['_c5b'].astype('str')
