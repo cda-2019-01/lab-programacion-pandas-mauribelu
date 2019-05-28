@@ -7,5 +7,6 @@ import numpy as np
 x = pd.read_csv('tbl0.tsv', sep = '\t')
 ##Suma de columnas
 x['suma_c0_c2'] = x['_c0'] + x['_c2']
-x.head()
+print(x)
+
 
