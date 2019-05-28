@@ -3,7 +3,7 @@
 ## separada por ':' de los valores de la columna _c2
 ## para el archivo tbl0.tsv
 import pandas as pd
-## Leer archivo
+## Leer tabla
 x = pd.read_csv('tbl0.tsv', sep = '\t')
 ## Construir tabla
 xtemp = x.groupby('_c1')['_c2'].apply(list)
