@@ -4,6 +4,7 @@
 ## valor en tbl0._c1.
 import pandas as pd
 import numpy as np
+## Leer tabla
 x2 = pd.read_csv('tbl2.tsv', sep = '\t')
 ## suma de tablas
 x2 = x2.groupby('_c5a')['_c5b'].sum()
