@@ -4,6 +4,7 @@
 ## para el archivo tbl0.tsv
 ## 
 import pandas as pd
+import numpy as np
 ##Leer archivo
 x = pd.read_csv('tbl0.tsv', sep = '\t')
 ##Construcción de tabla
@@ -12,5 +13,6 @@ xb = pd.DataFrame()
 xb['_c1'] = xtemp.keys()
 xb['lista'] = [elem for elem in xtemp]
 xb['lista'] = [":".join(str(v) for v in sorted(elem)) for elem in xb['lista']]
+print(xb)
 
 
