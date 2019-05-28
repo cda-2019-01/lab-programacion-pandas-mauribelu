@@ -1,7 +1,7 @@
 ##
 ## Imprima los valores unicos e la columna _c4 de 
 ## de la tabla tbl1 en mayusculas
-## Lectura del archivo
+## Leer Tabla
 import pandas as pd
 import numpy as np
 x1 = pd.read_csv('tbl1.tsv', sep = '\t')
