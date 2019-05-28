@@ -4,7 +4,7 @@
 ## de la tabla tbl1.tsv
 import pandas as pd
 import numpy as np
-## leer archivo
+## Leer tabla
 x1 = pd.read_csv('tbl1.tsv', sep = '\t')
 ## Construccion de tabla
 x1temp = x1.groupby('_c0')['_c4'].apply(list)
