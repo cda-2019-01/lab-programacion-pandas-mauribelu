@@ -3,6 +3,7 @@
 ## de la tabla tbl1 en mayusculas
 ## 
 import pandas as pd
+import numpy as np
 ## Lectura de tabla
 x1 = pd.read_csv('tbl1.tsv', sep = '\t')
 ##Imprimir Valores únicos
