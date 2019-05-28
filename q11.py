@@ -3,9 +3,9 @@
 ## separada por ',' de los valores de la columna _c5a
 ## y _c5b (unidos por ':') de la tabla tbl2.tsv
 ## 
+import pandas as pd
 ##Lectura tabla
 x2 = pd.read_csv('tbl2.tsv', sep = '\t')
-x2.head()
 ##Construcción tabla
 x2['_c5'] = x2['_c5a'] + ":" + x2['_c5b'].astype('str')
 x2temp = x2.groupby('_c0')['_c5'].apply(list)
