@@ -14,6 +14,6 @@ x2b = pd.DataFrame()
 x2b['_c0'] = x2temp.keys()
 x2b['lista'] = [elem for elem in x2temp]
 x2b['lista'] = [",".join(str(v) for v in sorted(elem)) for elem in x2b['lista']]
-x2b
+print(x2b)
 
 
