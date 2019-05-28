@@ -4,7 +4,6 @@
 ## 
 ## Lectura de tabla
 x1 = pd.read_csv('tbl1.tsv', sep = '\t')
-
 ##Imprimir Valores únicos
 unicos = x1['_c4'].unique()
 resultado = []
