@@ -11,4 +11,4 @@ x1b = pd.DataFrame()
 x1b['_c0'] = x1temp.keys()
 x1b['lista'] = [elem for elem in x1temp]
 x1b['lista'] = [",".join(str(v) for v in sorted(elem)) for elem in x1b['lista']]
-
+print(x1b)
