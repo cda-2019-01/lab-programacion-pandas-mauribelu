@@ -4,6 +4,7 @@
 ## y _c5b (unidos por ':') de la tabla tbl2.tsv
 ## 
 import pandas as pd
+import numpy as np
 ##Lectura tabla
 x2 = pd.read_csv('tbl2.tsv', sep = '\t')
 ##Construcción tabla
